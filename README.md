@@ -38,6 +38,7 @@ https://www.demoblaze.com
 
 ## Project Structure
 
+```text
 DemoblazeAutomationFramework/
 │── pom.xml
 │── testng.xml
@@ -60,13 +61,13 @@ DemoblazeAutomationFramework/
 │   │       └── utils/
 │   │           ├── ScreenshotUtil.java
 │   │           └── ExtentManager.java
-│   │
-│   └── test/
-│       └── java/
-│           └── tests/
-│               ├── LoginTest.java
-│               ├── CartTest.java
-│               └── OrderTest.java
+│
+├── test/
+│   └── java/
+│       └── tests/
+│           ├── LoginTest.java
+│           ├── CartTest.java
+│           └── OrderTest.java
 │
 ├── screenshots/
 │   └── (failure screenshots stored here)
@@ -77,6 +78,7 @@ DemoblazeAutomationFramework/
 │
 └── target/
     └── (generated after execution)
+```
 
 # Test Scenarios Covered – Demoblaze Automation Framework
 
